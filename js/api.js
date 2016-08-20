@@ -26,13 +26,13 @@ var addTask = function() {
 
 //Function that delete task by its Id
 var deleteTask = function() {
-    var task = $(this);
+    var task = $(this).parent('li');
     $.ajax({
         url: apiUrl + task.data('id'),
         type: 'DELETE',
         success: function(response) {
             //If delete is successful, remove the task
-            task.parent('li').remove();
+            task.remove();
         }
     });
 };

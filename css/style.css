@@ -12,20 +12,20 @@ body {
 }
 
 /* Style button using class*/
-
 .container {
     max-width: 500px;
     margin: 0 auto;
     padding: 10px;
 }
+
+/* Style using html tag*/
 h2 {
     text-align: center;
     font-size: 30px;
 }
 
-/* Style using html tag*/
 
-input {
+#newTask {
     font-size: 20px;
     width: 100%;
     box-sizing: border-box;
@@ -33,7 +33,6 @@ input {
 }
 
 /* Style button using id*/
-
 #addTask {
     font-size: 20px;
     color: #fff;
@@ -45,7 +44,6 @@ input {
 }
 
 /* Helper class that can be reused*/
-
 .spacer {
     margin-bottom: 10px;
 }
