@@ -10,5 +10,5 @@ getAllTask();
 //Bind click event to the add task button
 $('#addTask').click(addTask);
 
-//Bind click event for deleting of task
+//Bind click event for deleting a task
 $(document).on('click', '.deleteTask', deleteTask);
