@@ -36,3 +36,20 @@ var deleteTask = function() {
         }
     });
 };
+
+
+//Function that updates task by its Id. Not implemented but can update the task or mark it as completed
+// var updateTask = function() {
+//     var task = $(this).parent('li');
+//     var data = {
+//         task: //STRING: Task description,
+//         completed: //BOOL true/false
+//     };
+//
+//     $.ajax({
+//         url: apiUrl + task.data('id'),
+//         type: 'PUT',
+//         success: function(response) {
+//         }
+//     });
+// };
